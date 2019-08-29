@@ -1,0 +1,17 @@
+{
+    "name": "scrapper",
+    "version": "1.0.0",
+    "description": "Scraps dynamic websites",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Pranav Shah <shahpranaf@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "puppeteer": "^1.19.0",
+        "puppeteer-autoscroll-down": "^0.1.2"
+    }
+}
